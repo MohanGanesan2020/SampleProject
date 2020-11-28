@@ -7,6 +7,7 @@ public class TestCases {
 	public void LoginTest()
 	{
 		System.out.println("Welcome");
+		System.out.println("Welcome 2");
 		
 	}
 
