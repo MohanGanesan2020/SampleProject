@@ -13,6 +13,7 @@ public class TestCases {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/user/git/SampleProject/SampleProject/Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.orangehrm.com");
+		driver.manage().window().maximize();
 		
 	}
 
