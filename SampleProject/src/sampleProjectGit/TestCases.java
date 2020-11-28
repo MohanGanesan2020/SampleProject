@@ -11,8 +11,7 @@ public class TestCases {
 		System.out.println("Welcome");
 		System.out.println("Welcome 2");
 		System.setProperty("webdriver.driver.chromedriver", "C:/Users/user/git/SampleProject/SampleProject/Drivers/chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.get("www.orangehrm.com");
+		
 		
 	}
 
