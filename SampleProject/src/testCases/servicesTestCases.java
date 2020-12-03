@@ -19,7 +19,7 @@ public class servicesTestCases {
 		driver.manage().window().maximize();
 
 		//Service Page 
-		ServicesPageObjects servicesPageObjects = new ServicesPageObjects();
+		//ServicesPageObjects servicesPageObjects = new ServicesPageObjects();
 		servicesPageObjects.PreOpenSrcSupp(driver);
 		//System.out.println("Clicked on Premier Open Source Support Link");
 
