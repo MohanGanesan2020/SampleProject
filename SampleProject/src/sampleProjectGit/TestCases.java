@@ -14,6 +14,7 @@ public class TestCases {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.orangehrm.com");
 		driver.manage().window().maximize();
+		System.out.println("Welcome 2");
 		
 	}
 
