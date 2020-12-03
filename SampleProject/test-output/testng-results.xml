@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="245185" started-at="2020-12-03T06:50:14Z" finished-at="2020-12-03T06:54:19Z">
+  <suite name="Default suite" duration-ms="181263" started-at="2020-12-03T07:22:50Z" finished-at="2020-12-03T07:25:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="245185" started-at="2020-12-03T06:50:14Z" finished-at="2020-12-03T06:54:19Z">
+    <test name="Default test" duration-ms="181263" started-at="2020-12-03T07:22:50Z" finished-at="2020-12-03T07:25:51Z">
       <class name="sampleProjectGit.TestCases">
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:sampleProjectGit.TestCases@675690]" name="LoginTest" duration-ms="244680" started-at="2020-12-03T12:20:14Z" finished-at="2020-12-03T12:24:19Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:sampleProjectGit.TestCases@675690]" name="LoginTest" duration-ms="181216" started-at="2020-12-03T12:52:50Z" finished-at="2020-12-03T12:55:51Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Blog Resources"}
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Features"}
   (Session info: chrome=86.0.4240.198)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
 System info: host: 'USER-PC', ip: '192.168.42.116', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir3496_1886145281}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61018}, acceptInsecureCerts=false, browserVersion=86.0.4240.198, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: 5125c7b238977da685f4da5a1a65ee24
-*** Element info: {Using=link text, value=Blog Resources}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7148_1569975368}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56176}, acceptInsecureCerts=false, browserVersion=86.0.4240.198, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1dae252f1514c76b5f64f66f66cc39ca
+*** Element info: {Using=link text, value=Features}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Blog Resources"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Features"}
   (Session info: chrome=86.0.4240.198)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
 System info: host: 'USER-PC', ip: '192.168.42.116', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir3496_1886145281}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61018}, acceptInsecureCerts=false, browserVersion=86.0.4240.198, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
-Session ID: 5125c7b238977da685f4da5a1a65ee24
-*** Element info: {Using=link text, value=Blog Resources}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir7148_1569975368}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56176}, acceptInsecureCerts=false, browserVersion=86.0.4240.198, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1dae252f1514c76b5f64f66f66cc39ca
+*** Element info: {Using=link text, value=Features}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -44,7 +44,7 @@ Session ID: 5125c7b238977da685f4da5a1a65ee24
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:470)
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at sampleProjectGit.TestCases.LoginTest(TestCases.java:22)
+	at sampleProjectGit.TestCases.LoginTest(TestCases.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

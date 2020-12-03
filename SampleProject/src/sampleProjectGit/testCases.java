@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TestCases {
+public class testCases {
 	@Test
 	public void LoginTest()
 	{
@@ -26,9 +26,9 @@ public class TestCases {
 		driver.findElement(By.linkText("Blog")).click();
 		System.out.println("Clicked on Blog Link");
 		driver.findElement(By.linkText("Resources")).click();
-		System.out.println("Clicked on Resources Link");
+		System.out.println("Clicked on Services Link");
 		System.out.println("Test Case Ends");
-		
+
 	}
 
 }
