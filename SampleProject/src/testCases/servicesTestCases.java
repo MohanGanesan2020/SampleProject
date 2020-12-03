@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import pageObjects.ServicesPageObjects;
-
+import pageObjects.FeaturesPageObjects;
 public class servicesTestCases {
 	@Test
 	public void LoginTest() throws InterruptedException
@@ -24,15 +24,15 @@ public class servicesTestCases {
 		Thread.sleep(10000);*/
 		ServicesPageObjects servicesPageObjects = new ServicesPageObjects();
 		servicesPageObjects.PreOpenSrcSupp(driver);
-		System.out.println("Clicked on Premier Open Source Support Link");
+		//System.out.println("Clicked on Premier Open Source Support Link");
 		
-		
+				
 		/*//Features Page
-		driver.findElement(By.linkText("Features")).click();
-		System.out.println("Clicked on Features Link");
+				driver.findElement(By.linkText("Features")).click();
+				System.out.println("Clicked on Features Link");
+				driver.findElement(By.linkText("Learn More")).click();*/
 		
-		
-		//Success Stories Page
+		/*//Success Stories Page
 		driver.findElement(By.linkText("Success Stories")).click();
 		System.out.println("Clicked on Success Stories Link");
 		
