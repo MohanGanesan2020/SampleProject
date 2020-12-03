@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import pageObjects.ServicesPageObjects;
-import pageObjects.FeaturesPageObjects;
+
 public class servicesTestCases {
 	@Test
 	public void LoginTest() throws InterruptedException
