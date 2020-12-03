@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class testCases {
+import pageObjects.ServicesPageObjects;
+
+public class servicesTestCases {
 	@Test
 	public void LoginTest() throws InterruptedException
 	{
@@ -17,10 +19,12 @@ public class testCases {
 		driver.manage().window().maximize();
 		
 		//Service Page 
-		driver.findElement(By.linkText("Services")).click();
+		/*driver.findElement(By.linkText("Services")).click();
 		System.out.println("Clicked on Services Link");
-		Thread.sleep(30000);
-		driver.findElement(By.linkText("Premier Open Source Support")).click();
+		Thread.sleep(10000);*/
+		ServicesPageObjects servicesPageObjects = new ServicesPageObjects();
+		servicesPageObjects.PreOpenSrcSupp(driver);
+		System.out.println("Clicked on Premier Open Source Support Link");
 		
 		
 		/*//Features Page

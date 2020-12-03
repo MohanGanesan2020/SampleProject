@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="113066" started-at="2020-12-03T11:32:45Z" finished-at="2020-12-03T11:34:38Z">
+  <suite name="Default suite" duration-ms="113157" started-at="2020-12-03T12:22:05Z" finished-at="2020-12-03T12:23:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="113066" started-at="2020-12-03T11:32:45Z" finished-at="2020-12-03T11:34:38Z">
-      <class name="testCases.testCases">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:testCases.testCases@675690]" name="LoginTest" duration-ms="112944" started-at="2020-12-03T17:02:45Z" finished-at="2020-12-03T17:04:38Z">
+    <test name="Default test" duration-ms="113157" started-at="2020-12-03T12:22:05Z" finished-at="2020-12-03T12:23:59Z">
+      <class name="testCases.servicesTestCases">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:testCases.servicesTestCases@675690]" name="LoginTest" duration-ms="113093" started-at="2020-12-03T17:52:05Z" finished-at="2020-12-03T17:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-      </class> <!-- testCases.testCases -->
+      </class> <!-- testCases.servicesTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
